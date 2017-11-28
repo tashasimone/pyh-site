@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700|Roboto+Condensed:400,700');
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #4A90E2;
+}
+.alt-img {
+    width: 50%;
+    text-align: center;
+}
+body {
+    font-family: 'Muli', sans-serif;
+    padding: 10px 20px;
+    max-width: 425px;
+    margin: 0 auto;
+}
+.breadcrumbs, .breadcrumbs a {
+    font-size: 1.4rem;
+    line-height: 20px;
+    color: #9B9B9B;
+    width:100%;
+    margin: 0px;
+}
+button {
+    background-color: #4A90E2;
+    border: none;
+    padding: 7px 10px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.category a {
+    font-family: "Roboto Condensed";
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 30px;
+    color: #4A90E2;
+}
+.feature {
+    width: 100%;
+}
+.feature img {
+    max-width: 100%;
+}
+footer {
+    font-family: Muli;
+    font-size: 1.4rem;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 40px;
+}
+form {
+    width: 65%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px auto 0 auto;
+}
+.hamburger {
+    padding: 25px 10px 25px 0px;
+    box-sizing: border-box;
+}
+header {
+    display:flex;
+    flex-flow: row-reverse wrap;
+}
+html {
+    font-size: 62.5%;
+}
+h1, h2, h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1 {    
+    width: 83%;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+h1 a {
+    font-size: 3.0rem;
+    font-weight: bold;
+    line-height: 40px;
+    color: #4A90E2;
+}
+h2 {
+    font-size: 2.6rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: #4A90E2;
+}
+.images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+}
+main p, main li, main label, .reviews {
+    font-size: 1.4rem;
+    line-height: 20px;
+}
+.nav-masthead {
+    display: none;
+}
+.nav-sidebar li {
+    list-style: none;
+}
+.nav-sidebar {
+    border-top: 2px solid #BCBCBC;
+    margin: 0 auto;
+    width: 80%;
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.nav-sub li {
+    font-family: Muli;
+    font-size: 1.4rem;
+    line-height: 20px;
+    margin: 10px 0px;
+}
+.price {
+    font-family: Muli;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 20px;
+    color: #757575;
+}
+.product-details li {
+    margin: 10px 10px;
+}
+.product-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-left: 0px;
+}
+.product-list li {
+    width: 36%;
+    list-style: none;
+}
+.product-list img {
+    width: 90%;
+    align-content: center;
+}
+.product-title {
+    font-family: "Roboto Condensed";
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+}
+.quantity, .add {
+    width: 50%;
+}
+.rating {
+    max-width: 118px;
+    height: 15px;
+}
+.review {
+    width: 100%;
+}
+.reviews {
+    padding-left: 0px;
+}
+.reviews li {
+    list-style: none;
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+.reviewer-name {
+    font-weight: bold;
+    align-self: flex-start;
+    margin: 0px;
+    margin-right: auto;
+}
+.review-date {
+    line-height: 20px;
+    color: #9B9B9B;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+select {
+    width: 65%;
+    margin-left: 30px;
+}
+.size {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.sub-selected a {
+    font-weight: bold;
+    color: #4A90E2;
+}
+/********** TABLET STYLES **********************************************************************************************************************/
+@media screen and (min-width: 600px) {    
+    .alt-img {
+        width: 24%;
+    }
+    body {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .category{        
+        padding-left: 10%;
+    }
+    .feature {
+        width: 70%;
+    }
+    form {
+        width: 40%;
+        display: flex;
+        flex-flow: row wrap;
+        margin: 20px 0 0 40px;
+    }
+    .hamburger {
+        display: none;
+    }
+    header {
+        display:block;
+    }
+    h1 {
+        font-size: 3.0rem;
+        width: 100%;
+        margin-bottom: 0px;
+        padding-left: 0px;
+    }
+    h2 {
+        margin-top: 10px;
+    }
+    .images {
+        flex-flow: column wrap;
+        height: 300px;
+    }
+    .nav-masthead {
+        font-size: 1.8rem;
+        list-style: none;
+        font-family: "Roboto Condensed";
+        display: flex;
+        flex-flow: row;
+        margin: 0 0 15px 10%;        
+    } 
+    .nav-masthead a {        
+        padding: 10px 15px;
+        box-sizing: border-box;
+    }
+    .nav-masthead a:hover {
+        background-color: #4A90E2;
+        color: black;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .nav-masthead li {
+        margin: 15px 0px;
+        flex: 1;
+    }
+    .nav-sidebar {
+        border-right: 2px solid #BCBCBC;
+        border-top: none;
+        padding-right: 10px;
+        box-sizing: border-box;
+        width: 150%;
+        max-width: 250px;
+    }
+    .nav-sub {        
+        padding-left: 25%;
+    }
+    .page {
+        display: flex;
+        flex-flow: row-reverse;
+    }
+    .price {
+        font-size: 1.4rem;
+    }
+    .product-list li {
+        width: 40%;        
+    }
+    .product-title {
+        font-size: 1.6rem;
+    }    
+    .rating {
+        height: auto;
+        width: auto;
+        margin: 10px 0px 5px 0px;
+    }
+    .reviews li {
+        display: block;
+    }    
+    .selected {
+        font-weight: bold;
+    }
+}
+/******** DESKTOP STYLES ********************************************************************************************************************************/
+@media screen and (min-width: 1200px) {
+    .alt-img img {
+        width: 90%;
+        margin-top: 20px;
+    }
+    body {
+        max-width: 1420px;
+        margin: 0 auto;
+    }
+    .description {
+        flex: 36%;
+        padding-left: 40px;
+        box-sizing: border-box;
+    }
+    .feature {
+        width: 100%;
+    }
+    .feature img {
+        width: 100%;
+    }
+    form {
+        margin-top: 180px;
+        width: 65%;
+    }
+    footer {
+        max-width: 660px;
+        margin: 10px auto;
+    }
+    header {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    h1 {
+        width: 20%;
+        margin-bottom: 25px;
+    }
+    h2 {
+        flex: 100%;
+    }
+    h3 {        
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .images {
+        width: 63%;
+        flex-flow: row wrap;
+        height: auto;
+    } 
+    main {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .nav-masthead {
+        display: flex;
+        flex-flow: row wrap;
+        width: 300%;
+        margin: 15px 0;
+    } 
+    .nav-masthead li {
+        flex: 1;
+    }
+    .nav-sidebar {
+        padding-right: 10px;
+        box-sizing: border-box;
+        width: 75%;
+    }
+    .product-list {
+        justify-content: flex-start;
+        margin-left: 30px;
+        max-width: 1100px;
+    }
+    .product-list img {
+        max-width: 100%;
+    }
+    .product-list li {
+        width: 30%;
+        max-width: 265px;
+    }
+    .product-list a {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .product-title {
+        font-size: 1.6rem;
+        text-align: left;
+        width: 70%;
+    }     
+    .price {
+        text-align: right;
+        width: 20%;
+    }    
+    .review {
+        width: 63%;
+    }
+    #reviews {
+        flex: 100%;
+        width: 63%;
+    }
+}
